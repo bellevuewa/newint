@@ -1,0 +1,27 @@
+﻿Build started 12/3/2015 2:20:48 PM.
+     1>Project "C:\Users\hdong\Documents\Hu\Postprocessing\newintv1.2\newint\newint.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\newint.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\newint.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt newint.cpp
+         newint.cpp
+     1>c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1139): warning C4477: 'sscanf_s' : format string '%5c' requires an argument of type 'int', but variadic argument 2 has type 'char *'
+         c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1139): note: this argument is used as a buffer size
+     1>c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1139): warning C4473: 'sscanf_s' : not enough arguments passed for format string
+         c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1139): note: placeholders and their parameters expect 4 variadic arguments, but 2 were provided
+         c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1139): note: the missing variadic argument 3 is required by format string '%56c'
+         c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1139): note: this argument is used by a conversion specifier
+     1>c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1239): warning C4476: 'printf' : unknown type field character 'O' in format specifier
+     1>c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1239): warning C4474: 'printf' : too many arguments passed for format string
+         c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(1239): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+     1>c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(3712): warning C4101: 'i': unreferenced local variable
+     1>c:\users\hdong\documents\hu\postprocessing\newintv1.2\newint\newint.cpp(3712): warning C4101: 'text_len': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hdong\Documents\Hu\Postprocessing\newintv1.2\Debug\newint.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\hdong\Documents\Hu\Postprocessing\newintv1.2\Debug\newint.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hdong\Documents\Hu\Postprocessing\newintv1.2\Debug\newint.lib" /MACHINE:X86 Debug\newint.obj
+         Debug\stdafx.obj
+         newint.vcxproj -> C:\Users\hdong\Documents\Hu\Postprocessing\newintv1.2\Debug\newint.exe
+     1>Done Building Project "C:\Users\hdong\Documents\Hu\Postprocessing\newintv1.2\newint\newint.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00
